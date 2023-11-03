@@ -1,0 +1,231 @@
+/* BODY */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px;
+}
+
+/* HEADER */
+header {
+/*    background-color: #eaeaea; */
+    padding: 1rem 2vw;
+}
+header h1 {
+    color: #2d4452;
+    margin: 0;
+}
+header p {
+    color: #3E4C3E;
+    margin: 0;
+    letter-spacing: 2.62px;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #837072;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.17rem;
+    text-decoration: none;
+    color: #2d4452;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color:#2d4452;
+    color: #837072;
+}
+nav a:hover {
+    color: white;
+}
+
+/* MAIN */
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #65554A;
+}
+main h2 {
+    color: #2d4452;
+    margin-bottom: .2rem;
+}
+main h3 {
+    color: #2d4452;
+    margin-top: .1rem;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+/* EXTERNAL LINKS */
+main p a:link {
+    text-decoration: none;
+    color: blue;
+}
+main p a:visited {
+    text-decoration: none;
+    color: purple;
+}
+main p a:hover {
+    text-decoration: none;
+    color: green;
+}
+main p a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+/* ORDERED LISTS */
+main ol {
+    padding: .5rem 3vw;
+    background-color: #e2e2e2;
+}
+main ol li {
+    line-height: 120%;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    font-size: .91rem;
+    font-weight: 700;
+    color: #2d4452;
+}
+
+/* DESCRIPTION LISTS */
+main dl dt {
+    color: #65554A;
+    font-weight: 700;
+    font-size: 1.15rem;
+    width: 15.5rem;
+    text-align: center;
+}
+main dl dd {
+    color: #2d4452;
+    font-size: 1.05rem;
+    width: 14.5rem;
+    text-align: center;
+}
+
+/* UNORDERED LISTS */
+main ul {
+    list-style-type: square;
+}
+main ul li {
+    line-height: 120%;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    font-size: .91rem;
+}
+
+/* FIGURE */
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+/* DIVISION */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dAdAdA; 
+    padding: .5%;
+}
+
+div.gallery figure {
+    margin: 2% 2% 0 2%;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: 1rem;
+    color: #2f3133;
+    margin: 2rem 0.5rem;
+}
+
+/* ADDRESS */
+main address {
+    font-style: normal;
+    background-color: #837072;
+    padding: .5rem;
+    width: 14.5rem;
+    border: 5px double #2d4452;
+}
+main a {
+    color: #024873;
+}
+main a:hover {
+    color: rgb(239,0,24);
+}
+main address a {
+    text-decoration: none;
+}
+
+/* FORM */
+.cForm fieldset {
+    border: 1px solid #3E4C3E;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.cForm legend {
+    color: #3E4C3E;
+    font-size: .8rem;
+}
+.cForm label {
+    margin: .5rem;
+    color: #2D4452;
+}
+.cForm label, .cForm select, .cForm [type=text], .cForm [type=tel], .cForm [type=email], .cForm textarea {
+    display: block;
+}
+.cForm [type=text], .cForm [type=tel], .cForm [type=email], .cForm select, .cForm textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 200;
+}
+.cForm textarea {
+    height: 6rem;
+    width: 20rem;
+}
+.cForm :required {
+    background-color: rgba(62,76,62,0.1);
+}
+.cForm [type=submit] {
+    background-color: #3E4C3E;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
+
+/* FOOTER */
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #2d4452;
+    padding: 1rem 0;
+    font-size: 1rem;
+    clear: both;
+}
+footer a {
+    color: #2d4452;
+}
